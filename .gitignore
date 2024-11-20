@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# dependencies
 /node_modules
 /.pnp
@@ -40,3 +41,41 @@ next-env.d.ts
 # IDE
 .vscode/
 .idea/
+=======
+@"
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+>>>>>>> 8de3e44a8a256abdd660cb197633aa26b7c2af59
